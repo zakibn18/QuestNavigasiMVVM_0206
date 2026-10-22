@@ -39,13 +39,13 @@ fun FormIsian(
             TopAppBar(
                 title = { Text(stringResource(id = R.string.home), color = Color.White) },
                 colors = TopAppBarDefaults.mediumTopAppBarColors(
-                    containerColor = colorResource(id = R.color.teal_700)
+                     colorResource(id = R.color.teal_700)
                 )
             )
         }
     ) { isiRuang ->
         Column(
-            modifier = Modifier.padding(paddingValues = isiRuang),
+            modifier = Modifier.padding( isiRuang),
             verticalArrangement = Arrangement.Top,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
